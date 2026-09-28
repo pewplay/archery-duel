@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Archery Duel",
+  "description": "Duel a bot archer and be the first to hit 70 spinning and sliding targets in this free archery game you can play in your browser.",
+  "about": "Archery Duel is a head-to-head bow-and-arrow contest set in the 13th century. You and a bot archer face each other across the field, and a new formation of targets appears between you every round: crosses, rings, diamonds and squares, some standing still, some spinning, and on the hardest level rows that slide from side to side.\n\nEach archer gets three arrows per round, and a single well-placed shot can pierce several targets in a row, so aiming along a line pays off. The first to reach 70 hits wins the match. Three difficulty levels change how quickly the bot takes aim, and a tally of your wins and the bot's is kept between sessions.\n\nOriginally created by Jorge Rubiano for js13kGames 2023 as Archery Master.",
+  "howToPlay": "Pick Easy, Medium or Hard, then drag back from your bow and release to shoot in the opposite direction, like a slingshot. You have three arrows per round, and a new set of targets appears when all targets are down or both archers are out of arrows. Every target you hit scores a point, and the first archer to reach 70 points wins.",
+  "controls": [
+    {
+      "input": "Mouse drag and release",
+      "action": "Aim the bow and shoot"
+    },
+    {
+      "input": "Touch drag and release",
+      "action": "Aim the bow and shoot"
+    },
+    {
+      "input": "Tap",
+      "action": "Choose difficulty, exit or play again"
+    }
+  ],
+  "tips": [
+    "Line up shots through several targets at once, because one arrow keeps flying and can score multiple hits.",
+    "Spend your three arrows quickly, since the bot is racing you for the same targets.",
+    "On spinning formations, aim at the part of the ring that is about to move into your arrow's path.",
+    "Start on Easy to learn the slingshot aiming before facing the lightning-fast Hard bot."
+  ],
+  "faq": [
+    {
+      "question": "Is Archery Duel free to play?",
+      "answer": "Yes, Archery Duel is completely free and runs directly in your browser with nothing to install."
+    },
+    {
+      "question": "Can I play Archery Duel on my phone or tablet?",
+      "answer": "Yes, you aim by dragging with your finger. The field fits any screen, and in landscape it turns sideways so you shoot from left to right."
+    },
+    {
+      "question": "How is the Hard level different?",
+      "answer": "On Hard the bot aims and fires almost instantly, and sliding rows of targets show up more often."
+    }
+  ],
+  "category": "Sports",
+  "tags": [
+    "archery",
+    "bow and arrow",
+    "duel",
+    "medieval",
+    "skill",
+    "js13k"
+  ],
+  "author": "Jorge Rubiano",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-09-28",
+  "draft": false
+}
